@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\workfolder\\CrudTheme-.Net\\CrudTheme\\CrudTheme\\CrudTheme.csproj": {}
+    "C:\\Users\\STD\\Downloads\\CrudTheme-.Net\\CrudTheme\\CrudTheme\\CrudTheme.csproj": {}
   },
   "projects": {
-    "C:\\workfolder\\CrudTheme-.Net\\CrudTheme\\CrudTheme\\CrudTheme.csproj": {
+    "C:\\Users\\STD\\Downloads\\CrudTheme-.Net\\CrudTheme\\CrudTheme\\CrudTheme.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\workfolder\\CrudTheme-.Net\\CrudTheme\\CrudTheme\\CrudTheme.csproj",
+        "projectUniqueName": "C:\\Users\\STD\\Downloads\\CrudTheme-.Net\\CrudTheme\\CrudTheme\\CrudTheme.csproj",
         "projectName": "CrudTheme",
-        "projectPath": "C:\\workfolder\\CrudTheme-.Net\\CrudTheme\\CrudTheme\\CrudTheme.csproj",
-        "packagesPath": "C:\\Users\\icon\\.nuget\\packages\\",
-        "outputPath": "C:\\workfolder\\CrudTheme-.Net\\CrudTheme\\CrudTheme\\obj\\",
+        "projectPath": "C:\\Users\\STD\\Downloads\\CrudTheme-.Net\\CrudTheme\\CrudTheme\\CrudTheme.csproj",
+        "packagesPath": "C:\\Users\\STD\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\STD\\Downloads\\CrudTheme-.Net\\CrudTheme\\CrudTheme\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\icon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\STD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -80,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
