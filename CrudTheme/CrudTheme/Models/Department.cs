@@ -2,12 +2,13 @@
 
 namespace CrudTheme.Models
 {
-    public class Department
+    public class Department: DateEntity
     {
         [Key]
-        int DepartmentId { get; set; }
+      public int DepartmentId { get; set; }
+
         [Required]
-        string DepartmentName { get; set; }
+       public string DepartmentName { get; set; }
        
 
 

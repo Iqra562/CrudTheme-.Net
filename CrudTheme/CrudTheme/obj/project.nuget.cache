@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "46tGne//pS1hjc3daTgKunFDhl2M0bc9sENX5TFlCC8TXdSqbqOUZgNLgAoCmpcT5c2KUSGgLM7VFrUimY5rTA==",
+  "dgSpecHash": "gfXTxx6QYfogNtH/2mEEdtLiYhTVoLvhzsnav3QphPW8263vQ5PVtv2ncVVc+SlRXxLYK+EEgzvK0LXi5TIlvA==",
   "success": true,
-  "projectFilePath": "C:\\workfolder\\CrudTheme\\CrudTheme\\CrudTheme.csproj",
+  "projectFilePath": "C:\\workfolder\\CrudTheme-.Net\\CrudTheme\\CrudTheme\\CrudTheme.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\icon\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\icon\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
