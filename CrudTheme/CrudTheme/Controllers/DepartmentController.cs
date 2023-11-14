@@ -15,5 +15,9 @@ namespace CrudTheme.Controllers
         {
             return View(_db.Departments);
         }
+        public IActionResult Create()
+        {
+            return View();
+        }
     }
 }
