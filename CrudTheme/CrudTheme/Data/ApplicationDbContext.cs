@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using CrudTheme.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace CrudTheme.Data
 {
@@ -8,5 +9,6 @@ namespace CrudTheme.Data
         {
 
         }
+       public DbSet<Department> Departments { get; set; }
     }
 }
