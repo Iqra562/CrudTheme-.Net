@@ -19,6 +19,17 @@ namespace CrudTheme.Controllers
         {
             return View();
         }
+        [HttpPost]
+        public IActionResult Create(Department department)
+        {
+            if (ModelState.IsValid)
+            {
+                _db.Departments.Add(department);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(department);
+        }
         public IActionResult Edit()
         {
             return View();

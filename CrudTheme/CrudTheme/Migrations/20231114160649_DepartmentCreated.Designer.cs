@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CrudTheme.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20231114022059_departmentTable")]
-    partial class departmentTable
+    [Migration("20231114160649_DepartmentCreated")]
+    partial class DepartmentCreated
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

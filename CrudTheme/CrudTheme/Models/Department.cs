@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace CrudTheme.Models
+ namespace CrudTheme.Models
 {
-    public class Department: DateEntity
+    public class Department : DateEntity
     {
         [Key]
       public int DepartmentId { get; set; }
@@ -16,5 +16,3 @@ namespace CrudTheme.Models
 
     }
 }
-
-

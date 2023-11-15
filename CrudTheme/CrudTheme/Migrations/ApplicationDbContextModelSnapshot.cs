@@ -42,7 +42,7 @@ namespace CrudTheme.Migrations
 
                     b.HasKey("DepartmentId");
 
-                    b.ToTable("Departments", (string)null);
+                    b.ToTable("Departments");
                 });
 #pragma warning restore 612, 618
         }
