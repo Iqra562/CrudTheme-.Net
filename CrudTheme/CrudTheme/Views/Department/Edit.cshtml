@@ -1,1 +1,22 @@
-﻿<h1>ABC</h1>
+﻿@model Department
+
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col-sm-12 col-xl-12">
+            <div class="bg-secondary rounded h-100 p-4">
+                <h4 class="mb-4">Edit Department</h4>
+
+                <form method="post">
+                        <input type="hidden" asp-for="DepartmentId"/>
+                    <div class="mb-3">
+                        <input asp-for="DepartmentName" type="text" class="form-control text-white">
+                        <span asp-validation-for="DepartmentName" class="text-danger"></span>
+
+                    </div>
+
+                    <button type="submit" class="btn btn-dark blueTheme">Update</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

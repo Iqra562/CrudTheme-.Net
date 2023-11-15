@@ -30,9 +30,26 @@ namespace CrudTheme.Controllers
             }
             return View(department);
         }
-        public IActionResult Edit()
+        public IActionResult Edit(int id)
         {
-            return View();
+            Department  dep= _db.Departments.Find(id);
+            return View(dep);
+
         }
+
+        [HttpPost]
+        public IActionResult Edit(Department  dep)
+        {
+            if (ModelState.IsValid)
+            {
+                Department editDepartment = _db.Departments.Find(dep.DepartmentId);
+                editDepartment.DepartmentName = dep.DepartmentName;
+                editDepartment.LastUpdatedAt = DateTime.Now;
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(dep);
+        }
+
     }
 }

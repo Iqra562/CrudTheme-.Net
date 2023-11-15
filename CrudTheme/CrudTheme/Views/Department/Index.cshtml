@@ -13,7 +13,7 @@
                         <h5 class="">Departments</h5>
                     </div>
                     <div class="d-flex align-self-baseline ">
-                        <button class="btn btn-dark"> <a asp-action="Create" class="text-white">Add department</a> </button>
+                        <button class="btn  blueTheme"> <a asp-action="Create" class="text-white">Add department</a> </button>
                     </div>
                 </div>
 
@@ -24,18 +24,20 @@
                             <th scope="col">Department Name</th>
                             <th scope="col">Created At</th>
                             <th scope="col">Updated At</th>
+                            <th scope="col">Edit </th>
+                            <th scope="col">Delete </th>
                         </tr>
                     </thead>
                     <tbody>
                             @foreach (Department dep in Model){
-                        <tr>
-                                <th scope="row">@dep.DepartmentId</th>
+                            <tr class="tableText">
+                                <td>@dep.DepartmentId</td>
                                 <td>@dep.DepartmentName</td>
                                 <td>@dep.CreatedAt</td>
                                 <td>@dep.LastUpdatedAt</td>
-
-
-                        </tr>
+                                <td><button class="btn btn-secondary blueTheme"> <a asp-action="Edit" asp-route-id="@dep.DepartmentId"  class="text-white">Edit</a> </button></td>
+                                <td><button class="btn btn-dark deleteBtn">Delete</button></td>
+                             </tr>
                             }
 
                     </tbody>

@@ -8,12 +8,13 @@
 
                 <form method="post">
                     <div class="mb-3">
-                        <input asp-for="DepartmentName" type="text" class="form-control text-white">
-                        <span asp-validation-for="DepartmentName"></span>
+
+                         <input asp-for="DepartmentName" type="text" class="form-control text-white">
+                        <span asp-validation-for="DepartmentName" class="text-danger"></span>
 
                     </div>
 
-                    <button type="submit" class="btn btn-dark">Add</button>
+                    <button type="submit" class="btn btn-dark blueTheme">Create</button>
                 </form>
             </div>
         </div>

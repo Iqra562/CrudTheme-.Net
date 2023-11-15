@@ -1,11 +1,28 @@
 /********** Template CSS **********/
 :root {
-    --primary: #D3D3D3;
+    --primary: #0291f7;
     --secondary: #191C24;
     --light: #6C7293;
     --dark: #000000;
 }
+.blueTheme {
+    background-color: #0291f7;
+    color: white; 
+}
 
+.deleteBtn {
+    background-color: none;
+    /* color: black;  */
+    border: 2px solid #0291f7;
+    
+}
+
+.ThemeColor {
+    color: #0291f7;
+}
+.tableText {
+    color: #D3D3D3;
+}
 .back-to-top {
     position: fixed;
     display: none;
