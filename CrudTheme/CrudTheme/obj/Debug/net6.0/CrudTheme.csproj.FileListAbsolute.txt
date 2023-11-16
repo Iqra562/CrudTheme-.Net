@@ -163,7 +163,6 @@ C:\workfolder\CrudTheme-.Net\CrudTheme\CrudTheme\obj\Debug\net6.0\staticwebasset
 C:\workfolder\CrudTheme-.Net\CrudTheme\CrudTheme\obj\Debug\net6.0\staticwebassets.pack.json
 C:\workfolder\CrudTheme-.Net\CrudTheme\CrudTheme\obj\Debug\net6.0\staticwebassets.build.json
 C:\workfolder\CrudTheme-.Net\CrudTheme\CrudTheme\obj\Debug\net6.0\staticwebassets.development.json
-C:\workfolder\CrudTheme-.Net\CrudTheme\CrudTheme\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\workfolder\CrudTheme-.Net\CrudTheme\CrudTheme\obj\Debug\net6.0\scopedcss\bundle\CrudTheme.styles.css
 C:\workfolder\CrudTheme-.Net\CrudTheme\CrudTheme\obj\Debug\net6.0\scopedcss\projectbundle\CrudTheme.bundle.scp.css
 C:\workfolder\CrudTheme-.Net\CrudTheme\CrudTheme\obj\Debug\net6.0\CrudTheme.csproj.CopyComplete
@@ -259,3 +258,4 @@ C:\Users\STD\Downloads\CrudTheme-.Net\CrudTheme\CrudTheme\obj\Debug\net6.0\refin
 C:\Users\STD\Downloads\CrudTheme-.Net\CrudTheme\CrudTheme\obj\Debug\net6.0\CrudTheme.pdb
 C:\Users\STD\Downloads\CrudTheme-.Net\CrudTheme\CrudTheme\obj\Debug\net6.0\CrudTheme.genruntimeconfig.cache
 C:\Users\STD\Downloads\CrudTheme-.Net\CrudTheme\CrudTheme\obj\Debug\net6.0\ref\CrudTheme.dll
+C:\workfolder\CrudTheme-.Net\CrudTheme\CrudTheme\obj\Debug\net6.0\scopedcss\Views\Shared\_AdminLayout.cshtml.rz.scp.css

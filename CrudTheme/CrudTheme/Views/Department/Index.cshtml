@@ -36,7 +36,7 @@
                                 <td>@dep.CreatedAt</td>
                                 <td>@dep.LastUpdatedAt</td>
                                 <td><button class="btn btn-secondary blueTheme"> <a asp-action="Edit" asp-route-id="@dep.DepartmentId"  class="text-white">Edit</a> </button></td>
-                                <td><button class="btn btn-dark deleteBtn">Delete</button></td>
+                                <td><button class="btn btn-dark deleteBtn" onclick="deleteEntity(@dep.DepartmentId)">Delete</button></td>
                              </tr>
                             }
 
@@ -46,4 +46,12 @@
         </div>
     </div>
 </div>
+<script>
+    deleteEntity(id){
+    let con = confirm("Are you sure?");
+    if (con) {
+        location.href = "/Department/Delete/" + id;
+    }
+    }
+</script>
 <!-- Table End -->
