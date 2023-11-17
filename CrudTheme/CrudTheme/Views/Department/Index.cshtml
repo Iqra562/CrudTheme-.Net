@@ -13,12 +13,12 @@
                         <h5 class="">Departments</h5>
                     </div>
                     <div class="d-flex align-self-baseline ">
-                        <button class="btn  blueTheme"> <a asp-action="Create" class="text-white">Add department</a> </button>
+                        <button class="btn  blueTheme p-2"> <a asp-action="Create" class="text-white">Add department</a> </button>
                     </div>
                 </div>
 
-                <table class="table table-dark table-hover rounded">
-                    <thead class="text-light">
+                <table class="table table-dark table-hover ">
+                    <thead class="text-light ">
                         <tr>
                             <th scope="col">#</th>
                             <th scope="col">Department Name</th>
@@ -30,13 +30,13 @@
                     </thead>
                     <tbody>
                             @foreach (Department dep in Model){
-                            <tr class="tableText">
+                            <tr class="tableText ">
                                 <td>@dep.DepartmentId</td>
                                 <td>@dep.DepartmentName</td>
                                 <td>@dep.CreatedAt</td>
                                 <td>@dep.LastUpdatedAt</td>
                                 <td><button class="btn btn-secondary blueTheme"> <a asp-action="Edit" asp-route-id="@dep.DepartmentId"  class="text-white">Edit</a> </button></td>
-                                <td><button class="btn btn-dark deleteBtn" onclick="deleteEntity(@dep.DepartmentId)">Delete</button></td>
+                                <td><button type="default" class="btn btn-secondary deleteBtn" onclick="deleteEntity(@dep.DepartmentId)">Delete</button></td>
                              </tr>
                             }
 

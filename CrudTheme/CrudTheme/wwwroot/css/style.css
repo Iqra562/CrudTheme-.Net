@@ -7,14 +7,13 @@
 }
 .blueTheme {
     background-color: #0291f7;
-    color: white; 
+    color: white;
+    font-size:14px;
 }
 
 .deleteBtn {
-    background-color: none;
-    /* color: black;  */
-    border: 2px solid #0291f7;
-    
+   // background-color: none;
+    font-size: 14px;
 }
 
 .ThemeColor {
